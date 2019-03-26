@@ -1,0 +1,12 @@
+body {
+
+    background: url("../images/cave-desktop-backgrounds-dolomites-1366881resized1080x720.jpg");
+
+}
+
+#ranNumGen,
+#scoreboard {
+    background: beige;
+    width: 200px;
+    height: 200px;
+}
