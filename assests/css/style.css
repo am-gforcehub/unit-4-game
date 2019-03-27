@@ -1,14 +1,15 @@
 body {
-    background: url("../images/aladdin244smRIGHTresized1024x750.jpg");
+    background: url("../images/0d6f7373fc8fc6a98185dd293e89e0b3.jpg") no-repeat;
     background-size: 100%; 
     margin: 0;
+    font-family: 'Germania One', cursive;
 }
 
 #jumbo {
+    background: url("../images/old_map/old_map.png");
     text-align: center;
     width: 70%;
-    color: white;
-    background-color: burlywood;
+    color: darkgrey;
     margin: 0 auto;
 }
 
