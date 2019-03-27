@@ -11,10 +11,10 @@ $(document).ready(function () {
     //Selects a random number for each designated gemstone
     //Random number is between 1 and 12 
 
-    var emerald1 = Math.floor((Math.random() * 11) + 1);
-    var diamond1 = Math.floor((Math.random() * 11) + 1);
-    var ruby1 = Math.floor((Math.random() * 11) + 1);
-    var sapphire1 = Math.floor((Math.random() * 11) + 1);
+    var emerald1 = Math.floor((Math.random() * 12) + 1);
+    var diamond1 = Math.floor((Math.random() * 12) + 1);
+    var ruby1 = Math.floor((Math.random() * 12) + 1);
+    var sapphire1 = Math.floor((Math.random() * 12) + 1);
 
     var yourScore = 0;
     var wins = 0;
@@ -28,16 +28,12 @@ $(document).ready(function () {
     //Resets the game
     function reset() {
         random = Math.floor((Math.random() * 120) + 19);
-
-        console.log(random);
-
         $("ranNumGen").text(random);
 
-        var emerald1 = Math.floor((Math.random() * 11) + 1);
-        var diamond1 = Math.floor((Math.random() * 11) + 1);
-        var ruby1 = Math.floor((Math.random() * 11) + 1);
-        var sapphire1 = Math.floor((Math.random() * 11) + 1);
-
+        emerald1 = Math.floor((Math.random() * 12) + 1);
+        diamond1 = Math.floor((Math.random() * 12) + 1);
+        ruby1 = Math.floor((Math.random() * 12) + 1);
+        sapphire1 = Math.floor((Math.random() * 12) + 1);
 
         yourScore = 0;
 
@@ -51,13 +47,15 @@ $(document).ready(function () {
         wins++;
         $('#numWins').text(wins);
         reset();
+
     }
     //addes the losses to the userTotal
     function loser() {
         alert("You lose!");
         losses++;
         $('#numLosses').text(losses);
-        reset()
+        reset();
+
     }
     //sets up click for gemstones
     $("#emerald").on('click', function () {
@@ -71,6 +69,7 @@ $(document).ready(function () {
         else if (yourScore > random) {
             loser();
         }
+
     })
     $("#diamond").on('click', function () {
         yourScore = yourScore + diamond1;

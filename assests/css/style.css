@@ -1,10 +1,17 @@
 body {
-    background: url("../images/cave-desktop-backgrounds-dolomites-1366881.jpg");
-    background-size: 100%;
+    background: url("../images/aladdin244smRIGHTresized1024x750.jpg");
+    background-size: 100%; 
     margin: 0;
-
-
 }
+
+#jumbo {
+    text-align: center;
+    width: 70%;
+    color: white;
+    background-color: burlywood;
+    margin: 0 auto;
+}
+
 #generator,
 #scoreboard,
 #yourScore {
@@ -13,11 +20,11 @@ body {
     height: 150px;
     font-size: 24px;
     text-align: center;
+    
 }
 
 #ranNumGen, #scoreGen
  {
 font-size: 100px;
-
 
 }
