@@ -1,13 +1,23 @@
 body {
     background: url("../images/cave-desktop-backgrounds-dolomites-1366881.jpg");
     background-size: 100%;
+    margin: 0;
 
 
 }
-#ranNumGen,
+#generator,
 #scoreboard,
-#scoreGen {
-    background: beige;
-    width: 200px;
-    height: 200px;
+#yourScore {
+    background: lightgrey;
+    width: 100px;
+    height: 150px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#ranNumGen, #scoreGen
+ {
+font-size: 100px;
+
+
 }

@@ -7,17 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="./assests/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assests/css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
+
     <script type="text/javascript" src="./assests/javascript/game.js"></script>
 
     <title>Alicia Garcia - CrystalsCollector Game</title>
@@ -35,53 +36,54 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-4" id="ranNumGen">
-                Random Number Generator
+            <div class="col-4" id="generator">
+                Random Number Generator<br><span id="ranNumGen"></span>
             </div>
             <div class="col-4"></div>
             <div class="col-4" id="scoreboard">
                 Scoreboard
-                <br><br><br>
-                <p>Wins:</p>
                 <br><br>
-                <p>Loses:</p>
+                <p>Wins:<span id="numWins"></span></p>
+                <br>
+                <p>Losses:<span id="numLosses"></span></p>
             </div>
         </div>
+
 
         <br><br><br>
 
 
         <div class="row" id="gemstones">
             <div class="col-2" id="emerald">
-                <img class="img-responsive" src="assests/images/emerald-stone-2803.png" alt="Emerald" width="200"
-                    height="200">
+                <img class="img-responsive" src="assests/images/emerald-stone-2803.png" alt="Emerald" width="150"
+                    height="150">
             </div>
             <div class="col-1"></div>
             <div class="col-2" id="diamond">
-                <img class="img-responsive" src="assests/images/diamond-png-22521.png" alt="Diamond" width="200"
-                    height="200">
+                <img class="img-responsive" src="assests/images/diamond-png-22521.png" alt="Diamond" width="150"
+                    height="150">
             </div>
             <div class="col-1"></div>
             <div class="col-2" id="ruby">
-                <img class="img-responsive" src="assests/images/ruby-stone-2778.png" alt="Ruby" width="200"
-                    height="200">
+                <img class="img-responsive" src="assests/images/ruby-stone-2778.png" alt="Ruby" width="150"
+                    height="150">
             </div>
             <div class="col-1"></div>
             <div class="col-2" id="sapphire">
-                <img class="img-responsive" src="assests/images/sapphire-stone-2743.png" alt="Sapphire" width="200"
-                    height="200">
+                <img class="img-responsive" src="assests/images/sapphire-stone-2743.png" alt="Sapphire" width="150"
+                    height="150">
             </div>
             <div col="col-1"></div>
         </div>
 
-        <br><br><br>
+        <br><br>
 
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-6" id="scoreGen">
-                Your Score:
+            <div class="col-4"></div>
+            <div class="col-4" id="yourScore">
+                Your Score: <br><span id="scoreGen"></span>
             </div>
-            <div class="col-3"></div>
+            <div class="col-4"></div>
         </div>
     </div>
     <br><br><br>
