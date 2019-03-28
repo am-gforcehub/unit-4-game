@@ -1,21 +1,22 @@
-@font-face{
-    font-family: BlackPearl;
-    src: url("../images/BlackPearl.ttf") format("ttf");
+@font-face {
+    font-family: "blackpearl";
+    src:url("../images/BlackPearl.ttf") format("truetype");
 }
 body {
     background: url("../images/0d6f7373fc8fc6a98185dd293e89e0b3.jpg") no-repeat;
     background-size: 100%; 
     margin: 0;
-    font-family: 'Germania One', cursive;
+    font-family: "blackpearl";
+    /* font-family: 'Germania One', cursive; */
 }
 
 .textTitle {
     position: absolute;
-    top: 90px;
-    left: 100px;
+    top: 50px;
+    left: 150px;
     color: black;
-    font-size: 35px;
-    font-family: BlackPearl;
+    font-size: 40px;
+    font:  "blackpearl";
 
 }
 
@@ -27,12 +28,12 @@ body {
 
 .textimg {
     position: absolute;
-    color:#fffef9;
+    color: black;
     width: 150px;
     text-align: center;
     left: 185px;
-    bottom: 70px;
-    font-size: 14px;
+    bottom: 80px;
+    font-size: 12px bold;
   }
 
 #generator,
