@@ -1,3 +1,7 @@
+@font-face{
+    font-family: BlackPearl;
+    src: url("../images/BlackPearl.ttf") format("ttf");
+}
 body {
     background: url("../images/0d6f7373fc8fc6a98185dd293e89e0b3.jpg") no-repeat;
     background-size: 100%; 
@@ -5,19 +9,37 @@ body {
     font-family: 'Germania One', cursive;
 }
 
-#jumbo {
-    background: url("../images/old_map/old_map.png");
-    text-align: center;
-    width: 70%;
-    color: darkgrey;
-    margin: 0 auto;
+.textTitle {
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    color: black;
+    font-size: 35px;
+    font-family: BlackPearl;
+
 }
+
+.woodSign {
+    width: 300px;
+    height: 400px;
+
+}
+
+.textimg {
+    position: absolute;
+    color:#fffef9;
+    width: 150px;
+    text-align: center;
+    left: 185px;
+    bottom: 70px;
+    font-size: 14px;
+  }
 
 #generator,
 #scoreboard,
 #yourScore {
     background: lightgrey;
-    width: 100px;
+    width: 75px;
     height: 150px;
     font-size: 24px;
     text-align: center;
@@ -29,3 +51,16 @@ body {
 font-size: 100px;
 
 }
+
+@media only screen and (max-width: 900px) {
+    p {
+      font-size: 12px;
+    }
+    #generator,
+#scoreboard,
+#yourScore {
+    font-size: 12px;
+       
+}
+
+  }

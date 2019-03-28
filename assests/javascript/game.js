@@ -28,7 +28,7 @@ $(document).ready(function () {
     //Resets the game
     function reset() {
         random = Math.floor((Math.random() * 120) + 19);
-        $("ranNumGen").text(random);
+        $("#ranNumGen").text(random);
 
         emerald1 = Math.floor((Math.random() * 12) + 1);
         diamond1 = Math.floor((Math.random() * 12) + 1);
@@ -49,7 +49,7 @@ $(document).ready(function () {
         reset();
 
     }
-    //addes the losses to the userTotal
+    //adds the losses to the userTotal
     function loser() {
         alert("You lose!");
         losses++;
@@ -58,8 +58,9 @@ $(document).ready(function () {
 
     }
     //sets up click for gemstones
-    $("#emerald").on('click', function () {
-        yourScore = yourScore + emerald1;
+
+    function jewelClick(jewel) {
+        yourScore = yourScore + jewel;
         console.log("New yourScore= " + yourScore);
         $('#scoreGen').text(yourScore);
         //sets win/lose conditions
@@ -70,41 +71,76 @@ $(document).ready(function () {
             loser();
         }
 
+    }
+
+    $(".jewel").on("click", function () {
+        var clickedJewel = $(this).attr("id");
+        console.log(clickedJewel);
+        if (clickedJewel === "emerald") {
+            jewelClick(emerald1);
+        }
+        if (clickedJewel === "diamond") {
+            jewelClick(diamond1);
+        }
+        if (clickedJewel === "ruby") {
+            jewelClick(ruby1);
+        }
+        if (clickedJewel === "sapphire") {
+            jewelClick(sapphire1);
+        }
+
+
+
     })
-    $("#diamond").on('click', function () {
-        yourScore = yourScore + diamond1;
-        console.log("New yourScore= " + yourScore);
-        $('#scoreGen').text(yourScore);
-        //sets win/lose conditions
-        if (yourScore == random) {
-            tada();
-        }
-        else if (yourScore > random) {
-            loser();
-        }
-    })
-    $("#ruby").on('click', function () {
-        yourScore = yourScore + ruby1;
-        console.log("New yourScore= " + yourScore);
-        $('#scoreGen').text(yourScore);
-        //sets win/lose conditions
-        if (yourScore == random) {
-            tada();
-        }
-        else if (yourScore > random) {
-            loser();
-        }
-    })
-    $("#sapphire").on('click', function () {
-        yourScore = yourScore + sapphire1;
-        console.log("New yourScore= " + yourScore);
-        $('#scoreGen').text(yourScore);
-        //sets win/lose conditions
-        if (yourScore == random) {
-            tada();
-        }
-        else if (yourScore > random) {
-            loser();
-        }
-    })
+
+
+    // $("#emerald").on('click', function () {
+    //     yourScore = yourScore + emerald1;
+    //     console.log("New yourScore= " + yourScore);
+    //     $('#scoreGen').text(yourScore);
+    //     //sets win/lose conditions
+    //     if (yourScore == random) {
+    //         tada();
+    //     }
+    //     else if (yourScore > random) {
+    //         loser();
+    //     }
+
+    // })
+    // $("#diamond").on('click', function () {
+    //     yourScore = yourScore + diamond1;
+    //     console.log("New yourScore= " + yourScore);
+    //     $('#scoreGen').text(yourScore);
+    //     //sets win/lose conditions
+    //     if (yourScore == random) {
+    //         tada();
+    //     }
+    //     else if (yourScore > random) {
+    //         loser();
+    //     }
+    // })
+    // $("#ruby").on('click', function () {
+    //     yourScore = yourScore + ruby1;
+    //     console.log("New yourScore= " + yourScore);
+    //     $('#scoreGen').text(yourScore);
+    //     //sets win/lose conditions
+    //     if (yourScore == random) {
+    //         tada();
+    //     }
+    //     else if (yourScore > random) {
+    //         loser();
+    //     }
+    // })
+    // $("#sapphire").on('click', function () {
+    //     yourScore = yourScore + sapphire1;
+    //     console.log("New yourScore= " + yourScore);
+    //     $('#scoreGen').text(yourScore);
+    //     //sets win/lose conditions
+    //     if (yourScore == random) {
+    //         tada();
+    //     }
+    //     else if (yourScore > random) {
+    //         loser();
+    //     }
+    // })
 });
