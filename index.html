@@ -41,66 +41,76 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-4" id="generator">
-                Random Number Generator<br><span id="ranNumGen"></span>
+            <div class="col-4" id="instructions">
+                <img class="woodSign" src="assests/images/scroll1.png" alt="wood-sign">
+                <div class="textimg">
+                    <p>Instuctions:</p>
+                    <p>Click on the gemstones to reveal a number</p>
+                    <p>Keep clicking the gemstones until your number is the same as the Treasure's code</p>
+                    <br>
+                    <p>Match the code - you win the Treasure!</p><br>
+                    <p>Go over the Treasure's code you lose!</p><br>
+                </div>
             </div>
-            <div class="col-12" id="instructions"></div>
-            <img class="woodSign" src="assests/images/1753135.png" alt="wood-sign">
-            <div class="textimg">
-                <p>Instuctions:</p>
-                <p>Click on the gemstones to reveal a number</p>
-                <p>Keep clicking the gemstones until your number is the same as the Treasure's code</p>
-                <br><br><br><br>
-                <p>Match the code - you win the Treasure!</p><br><br><br>
-                <p>Go over the Treasure's code you lose!</p><br><br>
-            </div>
-            <div class="col-4" id="scoreboard">
-                Scoreboard
-                <br><br>
-                <p>Wins:<span id="numWins"></span></p>
-                <br>
-                <p>Losses:<span id="numLosses"></span></p>
-            </div>
-        </div>
 
-
-        <br><br><br>
-
-
-        <div class="row" id="gemstones">
-            <div class="col-2 jewel" id="emerald">
+            <div class="col-3 jewel" id="emerald">
                 <img class="img-responsive" src="assests/images/emerald-stone-2803.png" alt="Emerald" width="150"
                     height="150">
+
+
+
+                <div class="col-3 jewel" id="diamond">
+                    <img class="img-responsive" src="assests/images/diamond-png-22521.png" alt="Diamond" width="150"
+                        height="150">
+                </div>
+
             </div>
-            <div class="col-1"></div>
-            <div class="col-2 jewel" id="diamond">
-                <img class="img-responsive" src="assests/images/diamond-png-22521.png" alt="Diamond" width="150"
-                    height="150">
-            </div>
-            <div class="col-1"></div>
-            <div class="col-2 jewel" id="ruby">
+
+            <div class="col-3 jewel" id="ruby">
+
                 <img class="img-responsive" src="assests/images/ruby-stone-2778.png" alt="Ruby" width="150"
                     height="150">
-            </div>
-            <div class="col-1"></div>
-            <div class="col-2 jewel" id="sapphire">
-                <img class="img-responsive" src="assests/images/sapphire-stone-2743.png" alt="Sapphire" width="150"
-                    height="150">
-            </div>
-            <div col="col-1"></div>
-        </div>
 
-        <br><br>
 
-        <div class="row">
-            <div class="col-4"></div>
-            <div class="col-4" id="yourScore">
-                Your Score: <br><span id="scoreGen"></span>
+                <div class="col-3 jewel" id="sapphire">
+
+                    <img class="img-responsive" src="assests/images/sapphire-stone-2743.png" alt="Sapphire" width="150"
+                        height="150">
+                </div>
             </div>
-            <div class="col-4"></div>
+
         </div>
     </div>
-    <br><br><br>
+
+
+
+
+
+    <div class="row">
+        <div class="col-1"></div>
+
+        <div class="col-4" id="generator">
+            Treasure Code:<br><br><span id="ranNumGen"></span>
+        </div>
+        <br>
+
+        <div class="col-3" id="scoreboard">
+            Scoreboard
+            <br><br>
+            <p>Wins: <span id="numWins"></span></p>
+            <br>
+            <p>Losses: <span id="numLosses"></span></p>
+        </div>
+        <br>
+        <div class="col-3" id="yourScore">
+            Your Score: <br><span id="scoreGen"></span>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    </div>
+
+
+
 
 
 </body>
