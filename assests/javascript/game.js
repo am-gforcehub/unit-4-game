@@ -27,17 +27,20 @@ $(document).ready(function () {
 
     //Resets the game
     function reset() {
+
         random = Math.floor((Math.random() * 120) + 19);
+
         $("#ranNumGen").text(random);
+
+        yourScore = 0;
+
+        $("#scoreGen").text(yourScore);
+
 
         emerald1 = Math.floor((Math.random() * 12) + 1);
         diamond1 = Math.floor((Math.random() * 12) + 1);
         ruby1 = Math.floor((Math.random() * 12) + 1);
         sapphire1 = Math.floor((Math.random() * 12) + 1);
-
-        yourScore = 0;
-
-        $("#scoreGen").text(yourScore);
 
     }
 
@@ -66,10 +69,15 @@ $(document).ready(function () {
         //sets win/lose conditions
         if (yourScore == random) {
             tada();
+            event.stopPropagation();
+
         }
         else if (yourScore > random) {
             loser();
+            event.stopPropagation();
+
         }
+
 
     }
 
@@ -91,7 +99,9 @@ $(document).ready(function () {
 
 
 
+
     })
+
 
 
     // $("#emerald").on('click', function () {

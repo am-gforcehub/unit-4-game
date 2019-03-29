@@ -4,15 +4,23 @@
 }
 body {
     background: url("../images/0d6f7373fc8fc6a98185dd293e89e0b3.jpg") no-repeat;
-    background-size: 100%; 
+    background-size: cover; 
     margin: 0;
     font-family: "blackpearl";
+    
+}
+
+.titleImg {
+    margin-left: 10%;
+    width: 900px;
+    height: 210px;
 }
 
 .textTitle {
     position: absolute;
     top: 50px;
-    left: 150px;
+    left: 22%;
+    text-align: center;
     color: black;
     font-size: 40px;
     font:  "blackpearl";
@@ -21,8 +29,7 @@ body {
 
 .woodSign {
     width: 300px;
-    height: 400px;
-
+    height: 420px;
 }
 
 .textimg {
@@ -31,7 +38,7 @@ body {
     width: 150px;
     text-align: center;
     left: 100px;
-    bottom: 40px;
+    bottom: 35px;
     font-size: 12px bold;
   }
 
@@ -50,14 +57,28 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
-    p {
-      font-size: 12px;
-    }
-    #generator,
+.titleImg {
+    width: 100%;
+}
+.textTitle {
+    font-size: 5vw;
+}
+
+
+#generator,
 #scoreboard,
 #yourScore {
-    font-size: 12px;
+    left: 10%;
        
 }
 
-  }
+#ranNumGen,
+#scoreGen {
+    font-size: 50px;
+}
+
+.emerald, .diamond, .ruby, .sapphire {
+}
+
+
+}
