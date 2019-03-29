@@ -20,6 +20,9 @@ $(document).ready(function () {
     var wins = 0;
     var losses = 0;
 
+    // var myMusic = new sound("assests\images\frievents_Orchestra_-_08_-_Brave_Pirates.mp3");
+
+
     //Declares the wins and losses variables and keeps track
 
     $("#numWins").text(wins);

@@ -42,6 +42,11 @@ body {
     font-size: 12px bold;
   }
 
+  #diamond, #sapphire  {
+    padding-top: 50px;
+  }
+  
+
 #generator,
 #scoreboard,
 #yourScore {
