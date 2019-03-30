@@ -66,6 +66,7 @@ $(document).ready(function () {
         $('#scoreGen').text(yourScore);
         //sets win/lose conditions
         if (yourScore == random) {
+            // event.yourScore(); need to have last number show
             tada();
             event.stopPropagation();
 
