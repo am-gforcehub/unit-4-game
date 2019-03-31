@@ -33,7 +33,7 @@ html, body {
 
 .woodSign {
     width: 300px;
-    height: 320px;
+    height: 315px;
 }
 
 .textimg {
@@ -47,8 +47,12 @@ html, body {
   }
 
   #diamond, #sapphire  {
-    padding-top: 50px;
+    padding-top: 30px;
 
+  }
+
+  #emerald, #ruby {
+      padding-top: 30px;
   }
   
 
@@ -59,7 +63,9 @@ html, body {
     text-align: center;
     background: url("../images/old_map/old_map.png");
     padding-top: 10px;  
-    padding-bottom: 10px; 
+    color: black;
+    padding-bottom: 5px;
+
 }
 
 #ranNumGen, #scoreGen

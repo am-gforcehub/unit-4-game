@@ -64,20 +64,18 @@ $(document).ready(function () {
         yourScore = yourScore + jewel;
         console.log("New yourScore= " + yourScore);
         $('#scoreGen').text(yourScore);
+
         //sets win/lose conditions
         if (yourScore == random) {
-            // event.yourScore(); need to have last number show
             tada();
             event.stopPropagation();
-
         }
+
         else if (yourScore > random) {
             loser();
             event.stopPropagation();
 
         }
-
-
     }
 
     $(".jewel").on("click", function () {
