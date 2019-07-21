@@ -4,9 +4,9 @@
 
 ### How To Play
 
-Test your ability to add using the four jewels from the Pirate's treasure.
+Test your ability to add using the four gems from the Pirate's treasure.
 
-Click on the jewels to add a number to Your Loot, keeping clicking on a jewel until it matches the number from the Pirates Loot to win the game! But don't click too many jewels and go over the number, or it's game over for you!
+Click on the gems to add a number to Your Loot, keeping clicking on a gem until it matches the number from the Pirates Loot to win the game! But don't click too many gems and go over the number, or it's game over for you!
 
 Direct link to Treasure Collector Game [here](https://am-gforcehub.github.io/unit-4-game/)
 
