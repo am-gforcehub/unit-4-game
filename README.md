@@ -1,8 +1,8 @@
-# <img src="./assests/images/sapphire-stone-2743.png" width="100"> | Crystal Collector Game | <img src="./assests/images/sapphire-stone-2743.png" width="100">
+# <img src="./assests/images/diamond-png-22521.png" width="100"><img src="./assests/images/sapphire-stone-2743.png" width="100"> | Treasure Collector Game | <img src="./assests/images/ruby-stone-2743.png" width="100"><img src="./assests/images/emerald-stone-2803.png" width="100">
 
 ---
 
-## Functionality
+## How To Play
 
 Test your adding ability using the four precious jewels from the pirate's treasure.
 
