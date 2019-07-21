@@ -1,4 +1,4 @@
-# <img src="./assests/images/diamond-png-22521.png" width="150"><img src="./assests/images/sapphire-stone-2743.png" width="100"> | Treasure Collector Game | <img src="./assests/images/ruby-stone-2743.png" width="100"><img src="./assests/images/emerald-stone-2803.png" width="100">
+# <img src="./assests/images/diamond-png-22521.png" width="120"><img src="./assests/images/sapphire-stone-2743.png" width="100"> | Treasure Collector Game | <img src="assests\images\ruby-stone-2778.png" width="120"><img src="./assests/images/emerald-stone-2803.png" width="100">
 
 ---
 
