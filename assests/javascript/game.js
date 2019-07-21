@@ -11,10 +11,10 @@ $(document).ready(function () {
     //Selects a random number for each designated gemstone
     //Random number is between 1 and 12 
 
-    var emerald1 = Math.floor((Math.random() * 12) + 1);
-    var diamond1 = Math.floor((Math.random() * 12) + 1);
-    var ruby1 = Math.floor((Math.random() * 12) + 1);
-    var sapphire1 = Math.floor((Math.random() * 12) + 1);
+    var emerald1 = Math.floor(Math.random() * 12) + 1;
+    var diamond1 = Math.floor(Math.random() * 12) + 1;
+    var ruby1 = Math.floor(Math.random() * 12) + 1;
+    var sapphire1 = Math.floor(Math.random() * 12) + 1;
 
     var yourScore = 0;
     var wins = 0;
@@ -35,10 +35,10 @@ $(document).ready(function () {
         $("#scoreGen").text(yourScore);
 
 
-        emerald1 = Math.floor((Math.random() * 12) + 1);
-        diamond1 = Math.floor((Math.random() * 12) + 1);
-        ruby1 = Math.floor((Math.random() * 12) + 1);
-        sapphire1 = Math.floor((Math.random() * 12) + 1);
+        emerald1 = Math.floor(Math.random() * 12) + 1;
+        diamond1 = Math.floor(Math.random() * 12) + 1;
+        ruby1 = Math.floor(Math.random() * 12) + 1;
+        sapphire1 = Math.floor(Math.random() * 12) + 1;
 
     }
 
