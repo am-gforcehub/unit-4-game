@@ -1,12 +1,12 @@
-# <img src="./assests/images/diamond-png-22521.png" width="150"><img src="./assests/images/sapphire-stone-2743.png" width="100"> | Treasure Collector Game | <img src="../assests/images/ruby-stone-2743.png" width="100"><img src="./assests/images/emerald-stone-2803.png" width="100">
+# <img src="./assests/images/diamond-png-22521.png" width="150"><img src="./assests/images/sapphire-stone-2743.png" width="100"> | Treasure Collector Game | <img src="./assests/images/ruby-stone-2743.png" width="100"><img src="./assests/images/emerald-stone-2803.png" width="100">
 
 ---
 
 ## How To Play
 
-Test your adding ability using the four precious jewels from the pirate's treasure.
+Test your ability to add using the four precious jewels from the Pirate's treasure.
 
-Click on the jewels to add a number to Your Loot, keeping clicking until it matches the given Pirates Loot number to win the game. But don't click too many jewels and go over the number, or it's game over for you!
+Click on the jewels to add a number to Your Loot, keeping clicking until it matches the number from the Pirates Loot to win the game! But don't click too many jewels and go over the number, or it's game over for you!
 
 Direct link to Treasure Collector Game [here](https://am-gforcehub.github.io/unit-4-game/)
 
@@ -21,11 +21,11 @@ Direct link to Treasure Collector Game [here](https://am-gforcehub.github.io/uni
 
 ### Description & Requirements
 
-Get link to Treasure Collector Game requirements [here](https://docs.google.com/document/d/1cCXp8RJ5B4GGJDP-92wiVpfTGtl-wQ5cw-49m7Wxe-s/edit?usp=sharing)
+Direct link to Treasure Collector Game requirements [here](https://docs.google.com/document/d/1cCXp8RJ5B4GGJDP-92wiVpfTGtl-wQ5cw-49m7Wxe-s/edit?usp=sharing)
 
-Here is screen-shot of Treasure Collector Game home page:
+Here is a screen-shot of the Treasure Collector Game home page:
 
 ## ![View of Home Page](./assests/images/crystalcollectorgame.png)
 
-- **Demo**
-  See a full demo on the functionality of the app [here!]()
+<!-- - **Demo**
+  See a full demo on the functionality of the app [here!]() -->
