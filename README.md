@@ -1,4 +1,4 @@
-# | <img src="./assests/images/sapphire-stone-2743.png" width="100"> | Crystal Collector Game | <img src="./assests/images/sapphire-stone-2743.png" width="100">
+# {style = margin="0"}<img src="./assests/images/sapphire-stone-2743.png" width="100"> | Crystal Collector Game | <img src="./assests/images/sapphire-stone-2743.png" width="100">
 
 ---
 
