@@ -15,7 +15,7 @@ Direct link to Treasure Collector Game [here](https://am-gforcehub.github.io/uni
 - **For:** Southern Methodist University Coding Bootcamp
 - **Developer:** Alicia Garcia
 - **Deployment Date:** 03/30/2019
-- **Technologies Used:** Javascript, jQuery, HTML, Bootstrap, CSS,
+- **Technologies Used:** Javascript, jQuery, HTML, Bootstrap, CSS
 
 ---
 
