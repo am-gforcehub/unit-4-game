@@ -1,4 +1,4 @@
-# ![image info](./assests/images/sapphire-stone-2743.png) img[alt=crystal] { align: center, width:150px; } <h1>Crystal Collector Game</h1>
+# ![image info](./assests/images/sapphire-stone-2743.png | width=150) <h1>Crystal Collector Game</h1>
 
 ---
 
