@@ -1,4 +1,4 @@
-# ![image info](./assests/images/sapphire-stone-2743.png) width="120" <h1>Crystal Collector Game</h1>
+# ![image info](./assests/images/sapphire-stone-2743.png =150px) <h1>Crystal Collector Game</h1>
 
 ---
 
