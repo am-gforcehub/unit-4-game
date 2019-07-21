@@ -1,4 +1,4 @@
-# ![image info](./assests/images/sapphire-stone-2743.png) <h1>Crystal Collector Game</h1> ![]image info](./assests/images/ruby-stone-2778.png)
+# ![image info](./assests/images/sapphire-stone-2743.png) width="120" <h1>Crystal Collector Game</h1>
 
 ---
 
