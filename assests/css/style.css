@@ -1,106 +1,96 @@
 @font-face {
-    font-family: "blackpearl";
-    src:url("../images/BlackPearl.ttf") format("truetype");
+  font-family: "blackpearl";
+  src: url("../images/BlackPearl.ttf") format("truetype");
 }
-html, body {
-    background: url("../images/0d6f7373fc8fc6a98185dd293e89e0b3.jpg") no-repeat;
-    background-size: cover;
-    margin: 0;
-    font-family: "blackpearl";
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    display: block;
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  background: url("../images/0d6f7373fc8fc6a98185dd293e89e0b3.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  font-family: "blackpearl";
+  /* width: 100%; */
+  /* height: 100%; */
+  padding: 0;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.container {
+  position: relative;
+  max-width: 920px;
+  margin: 0 auto;
+  border-radius: 3px;
 }
 
 .titleImg {
-    margin: 0;
-    margin-left: 250px;
-    width: 600px;
-    height: 150px;
+  margin: 0;
+  margin-left: 175px;
+  width: 600px;
+  height: 150px;
 }
 
 .textTitle {
-    position: absolute;
-    top: 50px;
-    left: 360px;
-    text-align: center;
-    color: black;
-    font-size: 24px;
-    font:  "blackpearl";
-
+  position: absolute;
+  top: 50px;
+  left: 280px;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font: "blackpearl";
 }
 
 .woodSign {
-    width: 300px;
-    height: 315px;
+  width: 300px;
+  height: 315px;
 }
 
 .textimg {
-    position: absolute;
-    color: black;
-    width: 150px;
-    text-align: center;
-    left: 100px;
-    bottom: 25px;
-    font-size: 14px;
-  }
+  position: absolute;
+  color: black;
+  width: 150px;
+  text-align: center;
+  left: 100px;
+  bottom: 25px;
+  font-size: 14px;
+}
 
-  #diamond, #sapphire  {
-    padding-top: 30px;
+#diamond,
+#sapphire {
+  padding-top: 30px;
+}
 
-  }
-
-  #emerald, #ruby {
-      padding-top: 30px;
-  }
-  
+#emerald,
+#ruby {
+  padding-top: 30px;
+  margin-left: 75px;
+}
 
 #generator,
 #scoreboard,
 #yourScore {
-    font-size: 20px;
-    text-align: center;
-    background: url("../images/old_map/old_map.png");
-    padding-top: 10px;  
-    color: black;
-    padding-bottom: 5px;
-
-}
-
-#ranNumGen, #scoreGen
- {
-    font-size: 50px;
-}
-
-@media only screen and (max-width: 900px) {
-.titleImg {
-    width: 100%;
-    
-
-
-}
-.textTitle {
-    font-size: 5vw;
-}
-
-
-#generator,
-#scoreboard,
-#yourScore {
-    
-    
-       
+  font-size: 20px;
+  text-align: center;
+  background: url("../images/old_map/old_map.png");
+  padding-top: 10px;
+  color: black;
+  padding-bottom: 5px;
 }
 
 #ranNumGen,
 #scoreGen {
-    font-size: 50px;
+  font-size: 50px;
 }
 
-.emerald, .diamond, .ruby, .sapphire {
-
-    position: absolute;
-
-}
+@media (min-width: 769px) {
+  .container {
+    margin: 2.5rem auto;
+  }
+  #instructions {
+    position: relative;
+  }
 }
